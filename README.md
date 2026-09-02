@@ -34,22 +34,19 @@ The monitoring script currently checks:
 
 ```text
 ===============================================
-          SERVER MONITORING SYSTEM
+          SERVER MONITORING SYSTEM             
 ===============================================
-
 Hostname              : pop-os
-UP Time               : up 2 hours, 15 minutes
-CPU Usage             : 3.1%
-Memory Usage          : 42.7%
-Disk Usage            : 38%
-
-Docker:
-  nginx               Up 2 hours
-  redis               Up 2 hours
-
-Listening Ports:
-  Port: 22, Process: sshd
-  Port: 80, Process: nginx
+UP Time               : 2026-09-02 11:07:23
+-----------------------------------------------
+CPU Usage             : 8.5% [OK]
+-----------------------------------------------
+Memory Usage          : 39.478% [OK]
+-----------------------------------------------
+Disk Usage            : 10% [OK]
+-----------------------------------------------
+Checking Docker Status...
+Docker Service Status: active
 ```
 
 ## CPU Monitoring
